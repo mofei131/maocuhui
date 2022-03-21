@@ -1,0 +1,135 @@
+
+.orderBox{
+  .el-form-item {
+    border-bottom: 1px solid #cbcbcb;
+  }
+  .el-input__inner {
+    border: none !important;
+  }
+  .el-textarea__inner {
+    border: none !important;
+  }
+  .el-form-item__label {
+    padding-left: 24px;
+    font-size: 18px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: #000000;
+    line-height: 25px;
+  }
+  input::-webkit-input-placeholder,
+  textarea::-webkit-input-placeholder {
+    font-size: 16px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: #CBCBCB;
+    line-height: 25px;
+  }
+}
+.exhibitionListBox{
+  .input-with-select .el-input-group__prepend {
+    background-color: #fff!important;
+  }
+   .el-input-group__prepend .el-select{
+    width:100px;
+  }
+  .el-input-group>.el-input__inner{
+    width:230px;
+  }
+
+  .el-input-group__append{
+    background:#2884EC;
+  }
+  .el-input-group__append .el-icon-search{
+    color:#fff;
+  }
+  input::-webkit-input-placeholder{
+    font-size: 14px;
+  font-family: Source Han Sans SC;
+  font-weight: 400;
+  color: #999999;
+  line-height: 50px;
+  }
+  .menuVertical{
+    .el-submenu__title{
+      background: #DCECFE;
+      font-size: 20px;
+      font-family: Source Han Sans SC;
+      font-weight: 400;
+      color: #2884EC;
+    
+    }
+    .el-submenu__title i {
+      color: #2884EC;
+      font-weight: bold;
+
+    }
+    .el-menu-item-group__title {
+      padding: 0px;
+      line-height: normal;
+      font-size: 12px;
+      color: #909399;
+  }
+  .el-submenu .el-menu-item {
+    padding:0!important;
+    position: relative;
+    border-bottom: 1px solid #E8E8E8;
+  }
+  // .el-radio__input.is-checked .el-radio__inner {
+  //     border-color: #888;
+  //     background: #2884EC;
+  // }
+  .el-radio__inner {
+    width: 18px;
+    height: 18px;
+  }
+  }
+
+}
+
+.exhibitionListBox,.exhibitionListBox {
+    .el-pager li.active {
+      cursor: default;
+      background: #2884EC;
+      border-radius: 3px;
+      font-size: 18px;
+      color: #FEFEFE;
+  }
+  .el-pager li {
+    width:30px;
+    height:30px;
+    line-height: 30px;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-size: 18px;
+    color: #999999;
+    margin-right:10px;
+  }
+  .el-pager li.active+li {
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+  }
+  .el-pagination span{
+    font-size: 18px;
+    color:#333;
+  }
+  .el-pagination .btn-next, .el-pagination .btn-prev {
+    background: #F1F1F1;
+    border-radius: 3px;
+    padding:6px 10px;
+    margin:0 30px;
+  }
+  .el-pagination .btn-next .el-icon, .el-pagination .btn-prev .el-icon{
+    font-size: 18px;
+  }
+  .el-icon-arrow-left:before {
+    content: "上一页";
+  }
+  .el-icon-arrow-right:before {
+    content: "下一页";
+  }
+ .el-pagination__jump .el-input {
+    font-size: 18px;
+}
+}

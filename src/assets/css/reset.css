@@ -1,0 +1,23 @@
+       
+body{font-family: "微软雅黑";line-height:1;
+     /*根据实际情况调整*/
+}
+body,p{margin:0;}
+/*联合声明，群组选择器，逗号隔开*/
+  h1,h2,h3,h4,h5,h6{margin:0;font-weight:normal;font-size:100%;}
+  /*
+     font-size:100%;相对于父元素字号大小
+  */
+
+ul,ol{margin:0;padding:0;list-style:none;}
+a{text-decoration:none;color:#333;}
+em,i{font-style: normal;}
+strong,b{font-weight:normal;}
+img{vertical-align:bottom;border:none;}
+.clearfix{*zoom:1;}
+.clearfix:after{content:"";display:block;clear:both;font-size:0;line-height:0;height:0;overflow:hidden;visibility: hidden;}
+table{border-spacing:0;border-collapse: collapse;}
+td,th{padding:0;}
+ /*td,th{font-weight:normal;vertical-align: top;text-align: left;} */
+input{ padding: 0;margin:0;/*border:none;*/outline: none;/*去掉获得焦点时的默认状态*/}
+textarea{padding:0;resize: none;}
